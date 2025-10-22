@@ -9,6 +9,7 @@ import { LandownerDashboard } from './components/LandownerDashboard';
 import { PestStore } from './components/PestStore';
 import { CropYieldPredictor } from './components/CropYieldPredictor';
 import { UserRole } from './lib/mongodb';
+import { Analytics } from "@vercel/analytics/next"
 
 type AuthView = 'role-selection' | 'login' | 'signup';
 type AppPage = 'dashboard' | 'pest-store' | 'crop-predictor';
